@@ -1,0 +1,53 @@
+
+*** Running vivado
+    with args -log design_1_multipiler_v2_0_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_multipiler_v2_0_0_0.tcl
+
+
+ECHO ÇÕ <OFF> Ç≈Ç∑ÅB
+ECHO ÇÕ <OFF> Ç≈Ç∑ÅB
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_multipiler_v2_0_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/ip_repo/multipiler_v1_0_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/pynq_training_level2/pynq_training_level2.cache/ip 
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_multipiler_v2_0_0_0
+Command: synth_design -top design_1_multipiler_v2_0_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 114828
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1326.441 ; gain = 437.562
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'slv_reg0', assumed default net type 'wire' [c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/pynq_training_level2/pynq_training_level2.gen/sources_1/bd/design_1/ipshared/248b/hdl/multipiler_v1_0_v1_0.v:75]
+INFO: [Synth 8-11241] undeclared symbol 'calc_result', assumed default net type 'wire' [c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/pynq_training_level2/pynq_training_level2.gen/sources_1/bd/design_1/ipshared/248b/hdl/multipiler_v1_0_v1_0.v:76]
+INFO: [Synth 8-6157] synthesizing module 'design_1_multipiler_v2_0_0_0' [c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/pynq_training_level2/pynq_training_level2.gen/sources_1/bd/design_1/ip/design_1_multipiler_v2_0_0_0/synth/design_1_multipiler_v2_0_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'multipiler_v1_0_v1_0' [c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/pynq_training_level2/pynq_training_level2.gen/sources_1/bd/design_1/ipshared/248b/hdl/multipiler_v1_0_v1_0.v:4]
+INFO: [Synth 8-6157] synthesizing module 'multipiler_v1_0_v1_0_S00_AXI' [c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/pynq_training_level2/pynq_training_level2.gen/sources_1/bd/design_1/ipshared/248b/hdl/multipiler_v1_0_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-226] default block is never used [c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/pynq_training_level2/pynq_training_level2.gen/sources_1/bd/design_1/ipshared/248b/hdl/multipiler_v1_0_v1_0_S00_AXI.v:234]
+INFO: [Synth 8-226] default block is never used [c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/pynq_training_level2/pynq_training_level2.gen/sources_1/bd/design_1/ipshared/248b/hdl/multipiler_v1_0_v1_0_S00_AXI.v:372]
+ERROR: [Synth 8-439] module 'multipiler' not found [c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/pynq_training_level2/pynq_training_level2.gen/sources_1/bd/design_1/ipshared/248b/hdl/multipiler_v1_0_v1_0_S00_AXI.v:402]
+ERROR: [Synth 8-6156] failed synthesizing module 'multipiler_v1_0_v1_0_S00_AXI' [c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/pynq_training_level2/pynq_training_level2.gen/sources_1/bd/design_1/ipshared/248b/hdl/multipiler_v1_0_v1_0_S00_AXI.v:4]
+ERROR: [Synth 8-6156] failed synthesizing module 'multipiler_v1_0_v1_0' [c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/pynq_training_level2/pynq_training_level2.gen/sources_1/bd/design_1/ipshared/248b/hdl/multipiler_v1_0_v1_0.v:4]
+ERROR: [Synth 8-6156] failed synthesizing module 'design_1_multipiler_v2_0_0_0' [c:/Users/karas/Documents/etc/study/FPGA/pynq/pynq_training_level2/pynq_training_level2/pynq_training_level2.gen/sources_1/bd/design_1/ip/design_1_multipiler_v2_0_0_0/synth/design_1_multipiler_v2_0_0_0.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1436.496 ; gain = 547.617
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 1 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Oct  8 03:47:48 2025...
