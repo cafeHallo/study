@@ -1,0 +1,87 @@
+$date
+	Wed Oct 15 03:47:46 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module adder4_tb $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " carry_out $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$scope module dut $end
+$var wire 4 % a [3:0] $end
+$var wire 4 & b [3:0] $end
+$var wire 1 ' c0 $end
+$var wire 1 ( c1 $end
+$var wire 1 ) c2 $end
+$var wire 1 " carry_out $end
+$var wire 4 * sum [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 *
+0)
+0(
+0'
+b0 &
+b0 %
+b0 $
+b0 #
+0"
+b0 !
+$end
+#10000
+b1 !
+b1 *
+b1 #
+b1 %
+#20000
+b1 $
+b1 &
+b0 #
+b0 %
+#30000
+1'
+b10 !
+b10 *
+b1 #
+b1 %
+#40000
+b10 !
+b10 *
+0(
+0'
+b0 $
+b0 &
+b10 #
+b10 %
+#50000
+b100 !
+b100 *
+b100 #
+b100 %
+#60000
+b110 !
+b110 *
+b100 $
+b100 &
+b10 #
+b10 %
+#70000
+1"
+b0 !
+b0 *
+b1000 $
+b1000 &
+b1000 #
+b1000 %
+#80000
